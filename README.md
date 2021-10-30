@@ -1,3 +1,27 @@
+Dependencias: 
+
+## playertables from guillerp#1928 :  https://forum.cfx.re/t/release-esx-playertables-dev/4766083
+
+Add the jobs in playertables/Config.lua
+
+## This is my Config. ##
+
+
+C = {}
+
+C['enableDebug'] = true -- Enable debug prints
+C['UseOldESX'] = true -- Using versions non-legacy
+
+C['Jobs'] = {
+    "police",
+    "ambulance",
+    "mechanic",
+}
+
+## END Config of playertables. ##
+
+
+
 ## Read the config ##
 
 ## English
