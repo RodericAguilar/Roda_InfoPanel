@@ -1,3 +1,6 @@
+Don't miss to add your Bot_TOken in Server.lua, this bot need to stay in your discord with admin perms.
+
+
 Dependencias: 
 
 ## playertables from guillerp#1928 :  https://forum.cfx.re/t/release-esx-playertables-dev/4766083
