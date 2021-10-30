@@ -1,4 +1,4 @@
-local token = "ODgxOTE3NzQwMTE2NDgwMDAw.YSzz5g.8iSR1F5z5fpI_Dyz5oBtoSmlG4I"  ---PUT YOUR TOKEN
+local token = "PUT_YOUR_TOKEN"  ---PUT YOUR TOKEN
 local FormattedToken = "Bot " ..token
 
 
