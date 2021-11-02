@@ -1,4 +1,4 @@
-local token = "PUT_YOUR_TOKEN"  ---PUT YOUR TOKEN
+local token = Config.Token  ---PUT YOUR TOKEN
 local FormattedToken = "Bot " ..token
 
 local ESX = exports['es_extended']:getSharedObject()
