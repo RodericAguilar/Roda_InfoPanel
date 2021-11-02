@@ -1,5 +1,7 @@
 Config = {}
 
+Config.Token = "YOUR_BOT_TOKEN" -- Make sure that your discord bot has admin perms
+
 Config.DefaultBanner = 'https://wallpaperaccess.com/full/1615355.jpg'  --If the person don't have banner, this picture is displayed (occurs if discord is not open).
 Config.DefaultAvatar = 'https://i.pinimg.com/736x/8b/41/c5/8b41c5d25078fe59db85e8eaf251833f.jpg' --If the person don't have avatar, this picture is displayed (occurs if discord is not open).
 Config.FadeIn = 1000 -- Fade In animation duration.
