@@ -19,8 +19,8 @@ function GetDiscordName(user)
             if data ~= nil then 
                 DiscordName = data.username .. "#" .. data.discriminator;
             end
-        else 
-        	print("An error ocurred.")
+        else
+		DiscordName = "Discord not found"
         end
     end
     return DiscordName;
