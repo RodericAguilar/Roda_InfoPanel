@@ -1,4 +1,4 @@
-Don't miss to add your Bot_TOken in Server/Config.lua, this bot need to stay in your discord with admin perms.
+Don't miss to add your Bot_Token in Server/Config.lua, this bot need to stay in your discord with admin perms.
 
 ## Read the config ##
 
