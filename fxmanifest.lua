@@ -1,26 +1,32 @@
 fx_version 'cerulean'
 
-
 game 'gta5'
 
 author 'Roderic#0614'
-description 'Roda Info Panel'
+description 'Example'
 
+--Client Scripts-- 
 client_scripts {
-    'Client.lua'
+ 'Client/*.lua'
 }
 
-shared_script 'Config.lua'
-
+--Server Scripts-- 
 server_scripts {
-    'Server.lua'
+ 'Server/*.lua'
 }
 
-ui_page 'html/index.html'
+shared_scripts {
+    'Shared.lua'
+}
 
+--UI Part-- 
+ui_page {
+ 'html/index.html', 
+}
+
+--File Part-- 
 files {
-    'html/index.html',
-    'html/index.js',
-    'html/main.css',
-}
-
+ 'html/index.html',
+ 'html/app.js', 
+ 'html/style.css'
+} 

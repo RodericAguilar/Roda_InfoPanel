@@ -4,53 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
-    <script src="index.js"></script>
-    <script src="https://kit.fontawesome.com/90e1eced41.js" crossorigin="anonymous"></script>  
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="main.css">
-   
+    <title>Roda_InfoPanel</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    <link href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro@4cac1a6/css/all.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-    <div class="container formulario" id="todo" style="display: none;">
-        <div class="row">
-          <div class="col-12 col-sm-8 col-md-6 col-lg-4 ml-auto">
-            <div class="card ml-auto" style="background-color: rgba(0,0,0,0.7);  border: transparent; border-radius: 10px;">
-              <img class="card-img-top" id="bannerdiscord" src="https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/oslo.jpg" alt="Bologna">
-              <div class="card-body text-center">
-                <img class="avatar rounded-circle" id="fotodiscord" src="https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/robert.jpg" alt="Bologna">
-                <h4 class="card-title" style="color: white; font-weight: bold;" id="Name">Roderic Aguilar.</h4>
-                <ul class="list-group" >
-                  <li class="list-group-item d-flex justify-content-between align-items-center" style="background: transparent; border-bottom: 1px solid white;">
-                    <i class="fas fa-dollar-sign" style="color: white;"></i>
-                    <span class="badge badge-dark badge-pill" style="background: transparent;" id="money">0</span>
-                  </li>
-                  <li class="list-group-item d-flex justify-content-between align-items-center" style="background: transparent; border-bottom: 1px solid white;">
-                    <i class="fas fa-piggy-bank" style="color: white;"></i>
-                    <span class="badge badge-primary badge-pill" style="background: transparent;" id="bank">0</span>
-                  </li>
-                  <li class="list-group-item d-flex justify-content-between align-items-center" style="background: transparent; border-bottom: 1px solid white; ">
-                    <i class="fas fa-user-secret" style="color: white;"></i>
-                    <span class="badge badge-primary badge-pill" style="background: transparent;" id="black">0</span>
-                  </li>
-                  <li class="list-group-item d-flex justify-content-between align-items-center" style="background: transparent; border-bottom: 1px solid white; ">
-                    <i class="fas fa-briefcase" style="color: white;"> <span id="jobname"> Unemployed</span> </i>
-                    <i class="fas fa-shield-alt" style="color: white;"> <span id="gradename"> 0</span> </i> 
-                  </li>
-                </ul>
-                <br>
-                <ul class="list-group list-group-horizontal" style="border: transparent;" >
-                  <li class="list-group-item" style="background: transparent;"><i class="fas fa-ambulance" style="font-size:300%;color:rgba(255, 0, 0, 0.6)"></i><span style="color: white;" id="ambulance">0</span></li>
-                  <li class="list-group-item" style="background: transparent;"><i class="fa fa-car" style="font-size:300%;color:rgba(0, 17, 255, 0.6);"></i><span style="color: white;" id="pol">0</span></li>
-                  <li class="list-group-item" style="background: transparent;"><i class="fas fa-wrench" style="font-size:300%;color:rgba(255, 102, 0, 0.6)"></i><span  style="color: white;" id="mech">0</span></li>
-                </ul>
-                <h4 class="card-title" style="color: red; font-weight: bold;" >Player Count</h4>
-                <h4 class="card-title" style="color: white;" id="players">PlayerConnecteds</h4>
-              </div>
-            </div>
-          </div>
+    <div class="container">
+        <div class="banner">
+            <img src="https://cdn.discordapp.com/avatars/755358930833768488/b0c4920921cc1076466ac8903eb9e10c.png?" alt="">
         </div>
-      </div>
+        <div class="idcontain">
+            <h1 class="idjs">ID: 1</h1>
+            <h2 class="namejs">Roderic</h2>
+        </div>
+        <div class="moneycount">
+            <div class="jobs">
+                <i class="fas fa-wallet" style="color: rgb(0, 0, 0);"><span class="moneyjs"> $ 9999999999</span></i>
+            </div>
+            <div class="jobs">
+                <i class="fas fa-credit-card" style="color: rgb(0, 0, 0);"><span class="bankjs"> $ 9999999999</span></i>
+            </div>
+            <div class="jobs">
+                <i class="fas fa-user-secret" style="color: black;"><span class="blackjs"> $ 9999999999</span></i>
+            </div>
+        </div>
+        <div class="jobcontainer">
+            <div class="jobs">
+                <i class="fas fa-briefcase"><span class="jobjs">Mechanic</span></i>
+            </div>
+            <div class="jobs">
+                <i class="fas fa-medal"><span class="gradejs">Interno</span></i>
+            </div>
+        </div>
+        <div class="jobcount">
+            <div class="jobs jobs2">
+                <i class="fas fa-siren-on"><span>1</span></i>
+                <i class="fas fa-ambulance"><span>1</span></i>
+                <i class="fas fa-car-mechanic"><span>5</span></i>
+            </div>
+        </div>
+        <hr class="separador">
+        <div class="pcount">
+            <h1>Player Count</h1>
+            <h2>10/10</h2>
+        </div>
+    </div>
 </body>
 </html>

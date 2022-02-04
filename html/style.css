@@ -1,0 +1,177 @@
+@font-face {
+    font-family: FuenteTest;
+    src: url(https://cdn.discordapp.com/attachments/902628596949090335/934536237388283975/OldSansBlack.ttf);
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: absolute;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0, 0, 0, 0.61) 100%);
+    width: 22vw;
+    height: 40vw;
+    right: 1vw;
+    top: 4vw;
+    border-bottom-left-radius: .5vw;
+    border-bottom-right-radius: .5vw;
+}
+
+.banner {
+    background-image: url(https://modusgames.com/wp-content/uploads/2019/05/Discord_Banner_820x312.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 22vw;
+    height: 9vw;
+    -webkit-box-shadow: .2vw .2vw .8vw .2vw rgba(0,0,0,0.35); 
+    box-shadow: .2vw .2vw .8vw .2vw rgba(0,0,0,0.35);
+}
+
+.banner img {
+    position: absolute;
+    left: 8vw;
+    top: 6vw;
+    width: 7vw;
+    height: 7vw;
+    border-radius: 1.5vw;
+    -webkit-box-shadow: .2vw .2vw .8vw .2vw rgba(0,0,0,0.35); 
+    box-shadow: .2vw .2vw .8vw .2vw rgba(0,0,0,0.35);
+}
+
+.idcontain {
+    max-width: 22vw;
+    margin-top: 4.5vw;
+    height: auto;
+    word-wrap: break-word;
+}
+
+.idcontain h1 {
+    text-align: center;
+    font-size: 1.2vw;
+    color: white;
+    font-family: FuenteTest;
+    text-shadow: 0vw .12vw .12vw rgb(0, 0, 0);
+    padding-bottom: .2vw;
+}
+
+.idcontain h2 {
+    font-family: FuenteTest;
+    font-size: 1.5vw;
+    text-align: center;
+    color: white;
+    text-shadow: 0vw .12vw .12vw rgb(0, 0, 0);
+    margin-top: -1vw;
+}
+
+.moneycount {
+    max-width: 20vw;
+    height: 6vw;
+    margin-left: 1vw;
+    border-bottom: .1vw solid white;
+    border-top: .1vw solid white;
+    -webkit-box-shadow: .2vw .2vw .8vw .2vw rgba(0,0,0,0.35); 
+    box-shadow: .2vw .2vw .8vw .2vw rgba(0,0,0,0.35);
+}
+
+
+.moneyjs {
+    margin-left: .12vw;
+}
+
+.blackjs {
+    margin-left: .3vw;
+}
+
+.jobcontainer {
+    max-width: 20vw;
+    height: 4vw;
+    margin-left: 1vw;
+    margin-top: 1vw;
+    border-bottom: .1vw solid white;
+    border-top: .1vw solid white;
+    -webkit-box-shadow: .2vw .2vw .8vw .2vw rgba(0,0,0,0.35); 
+    box-shadow: .2vw .2vw .8vw .2vw rgba(0,0,0,0.35);
+}
+
+.jobjs {
+    margin-left: .6vw;
+}
+
+.gradejs {
+    margin-left: .6vw;
+}
+
+
+.jobs {
+    padding: .5vw;
+}
+
+.jobs i {
+    text-shadow: -.05vw 0 rgb(255, 255, 255), 0 .05vw  rgb(255, 255, 255), .05vw  0 rgb(255, 255, 255), 0 -.05vw  rgb(255, 255, 255);
+    font-size: .9vw;
+}
+
+.jobs span {
+    color: white;
+    font-family: FuenteTest;
+    font-size: .9vw;
+    text-shadow: 0vw .12vw .12vw rgb(0, 0, 0);
+}
+
+.textcount span {
+    color: white;
+    font-family: FuenteTest;
+    font-size: 1vw;
+    padding: 1.4vw;
+    margin-left: 1vw;
+    text-shadow: 0vw .12vw .12vw rgb(0, 0, 0);
+}
+
+.jobs2 i {
+    text-shadow: -.05vw 0 rgb(255, 255, 255), 0 .05vw  rgb(255, 255, 255), .05vw  0 rgb(255, 255, 255), 0 -.05vw  rgb(255, 255, 255);
+    font-size: 2.2vw;
+    padding: .5vw;
+    margin-right: .1vw;
+}
+
+.jobs2 span {
+    margin-left: .2vw;
+}
+
+.jobcount {
+    max-width: 20vw;
+    max-height: auto;
+    margin-top: .5vw;
+    margin-left: 3.8vw;
+}
+
+.separador {
+    width: 20vw;
+    margin-top: -.1vw;
+}
+
+.pcount {
+    width: 22vw;
+    height: 2vw;
+}
+
+.pcount h1 {
+    text-align: center;
+    color: white;
+    font-size: 1.5vw;
+    font-family: FuenteTest;
+    text-shadow: 0vw .12vw .12vw rgb(0, 0, 0);
+}
+
+
+.pcount h2 {
+    text-align: center;
+    color: white;
+    font-size: 1vw;
+    font-family: FuenteTest;
+    margin-top: -.5vw;
+    text-shadow: 0vw .12vw .12vw rgb(0, 0, 0);
+}
