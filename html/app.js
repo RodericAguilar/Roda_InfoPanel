@@ -1,4 +1,4 @@
-
+var dollar = Intl.NumberFormat('en-US');
 
 window.addEventListener("message", function(event) {
     var v = event.data  
@@ -16,8 +16,8 @@ window.addEventListener("message", function(event) {
             $('.fa-car-mechanic span').html(datos.meca)
             $('.jobjs').html(datos.job)
             $('.gradejs').html(datos.grade)
-            $('.moneyjs').html(' $ '+datos.money)
-            $('.bankjs').html(' $ '+datos.bank)
+            $('.moneyjs').html(' $ '+ dollar.format(datos.money))
+            $('.bankjs').html(' $ '+ dollar.format(datos.bank))
             $('.blackjs').html(' $ '+datos.black)
             $('.pcount h2').html(datos.totalplayers+'/'+v.maxp)
             $('.container').fadeIn(500)
